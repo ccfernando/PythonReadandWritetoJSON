@@ -28,7 +28,7 @@ print("Hello ", name)
 # saving to a json file
 
 # opening  the json file connection with write mode
-outfile = open("./resource/charInfo.json","w")
+outfile = open("./resource/CharInfo.json","w")
 
 # dumping the contents of the  charDetail dict to the json file
 json.dump(characterDetail, outfile)
@@ -38,7 +38,7 @@ outfile.close()
 
 
 # opening  the json file connection with read mode
-file = open("./resource/charInfo.json", "r")
+file = open("./resource/CharInfo.json", "r")
 
 # creating a python dict that will store the contents
 # of the json file
